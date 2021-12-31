@@ -34,7 +34,7 @@ ROM:   0xC000-0xC7FF
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "IO" for The MultiIO).
 
 
-Recommended assembly order: (Shortest to tallest)  **NEEDS UPDATING**
+Recommended assembly order: (Shortest to tallest)  **NEEDS UPDATING FOR V2**
 * 1  - Resistors (R1-R3)
 * 2  - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
 * 3  - 74 series Chips (U1-4, U6-7, U9, U11-13)
@@ -43,7 +43,6 @@ Recommended assembly order: (Shortest to tallest)  **NEEDS UPDATING**
 * 6  - Oscillator (OSC1)
 * 7  - UART Socket (U8 Socket)  - Pay very special attention to the orientation!  See note below.
 * 8  - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
-* 8a - Bodge Resistor on rear of board.  (Only for Version 1.7a boards)
 * 9 -  ROM and UART chips into their sockets.
 * 10  - CF Adapter
 * 11 - Backplate
@@ -53,6 +52,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 
 ## Bill of Materials
+  **NEEDS UPDATING FOR V2**
 |Quantity |Ref(s)        |Mouser Part Number  |Description                                                     
 |-----|----------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1            |200-CES13101SD<br><i><b>See Note2 Below</i>|2x31 2.54mm Header Socket
@@ -85,7 +85,7 @@ Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" o
 
 Note2: For the BUS1 and CF-J1 Connectors, I have many of these left over from my last order of custom connectors.   You can buy them for $2.00/set plus shipping.  Even for one, it is far cheaper than the $20 that Mouser wants.   Please email tandy.3in1@gmail.com to order.
 ## BIOS
-
+  **NEEDS UPDATING FOR V2**
 This board uses the XT-IDE Universal BIOS.  I have included pre-configured images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
 
 ## CF-IDE Adapter
