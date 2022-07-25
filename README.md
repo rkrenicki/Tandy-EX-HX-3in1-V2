@@ -79,6 +79,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |ROM-U5          |804-39SF010A7CPHE   |39SF010 128k x 8 NOR Flash
 | 1   |ROM-U5 Socket   |517-4832-6000-CP    |32-pin Wide DIP Socket
 | 1   |CF-IDE Adapter  |n/a                 |CF to IDE Adapter from eBay or AliExpress (See note below)
+| 1   |J1              |534-7327            |Mounting Tab for Backplate
 
 
 Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, or HCT among others.
